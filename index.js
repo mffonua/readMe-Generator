@@ -49,13 +49,23 @@ const questions = [
         type: 'input',
         message: 'What is the link to the website?',
      },
-
+     {
+        name: 'screenshot',
+        type: 'input',
+        message: 'Please provide the pathway from your current directory to a screenshot of the application.',
+     },
+     {
+        name: 'email',
+        type: 'input',
+        message: 'What is your email address?',
+     },
+     {
+        name: 'license',
+        type: 'list',
+        message: 'Please select the license you would like to use for your project.',
+        choices: ['Apache', 'GNU', 'MIT', 'None'],
+    }
 ];
-
-
-
-
-
 
 // Function to promt questions
 function inquirerPrompts() {
@@ -67,12 +77,12 @@ function inquirerPrompts() {
 }
 // Function to write README file
 function writeToFile(data) {
-    fs.writeFile('MockupREADME.md', generateMarkdown(data),
+    fs.writeFile('MockupREADME.md', generateMarkdown(data), (err) =>
     err ? console.log(err) : console.log('Success'));
 }
 // Function to initialize app
 function init() {
-    inquirerPrompts
+    inquirerPrompts();
 }
 // Function call to initialize app
 init();
