@@ -1,10 +1,10 @@
 
 # **readMe-Generator**
     
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)
 
 ## Description
-This app allows for a user to efficiently generate a readme file for new projects. 
+This app allows for a user to efficiently generate a README.md file for their new projects. 
 
 ## Table of Contents
 - [Description](#Description)
@@ -19,24 +19,24 @@ This app allows for a user to efficiently generate a readme file for new project
 npm install, inquirer, filesystems.
     
 ## Usage
-After inputing "node index.js" into the terminal
+Input "node index.js" in the terminal, after complete the series of prompts to the best of your ability, upon completion a readme file will be generated
 
 ## License
-MIT:  https://opensource.org/licenses/MIT 
+Apache:  https://opensource.org/licenses/Apache-2.0 
     
 ## Contributing
-clear
+Please contact me via email.
 
 ## Tests
-clasr
+clear
 
 ## Questions
-* If you have any addition questions, you can contact me here: asdka
+* If you have any addition questions, you can contact me here: cadsoj
 
 ## Links
-* Link to Website: ]laspdp[aksdp[
+* Link to Website: clear
 * Link to GitHub Repository: undefined
-* Link to GitHub: https://github.com/asdlasdl
+* Link to GitHub: https://github.com/clear
 
 ## Mockup
-![screenshot of project](as[pdka[sd)
+![screenshot of project](claer)
