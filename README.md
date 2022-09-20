@@ -26,7 +26,7 @@ This application will start by running `node index.js` from the command line. Fo
 After answering all the prompts, your README file will be named 'MockupREADME.md' and will be ready for you at the root of the repository. 
 
 ## Usage
- ![Screenrecord of App](https://user-images.githubusercontent.com/108596346/191172083-5e1224a2-4e52-480a-9077-a2f096bc646d.mp4)
+ ![Screenrecord of App]https://user-images.githubusercontent.com/108596346/191172083-5e1224a2-4e52-480a-9077-a2f096bc646d.mp4
 
  ## License
  MIT: https://opensource.org/licenses/MIT
