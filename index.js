@@ -4,7 +4,52 @@ const generateMarkdown = require('./utils/generateMarkdown');
 
 // TODO: Create an array of questions for user input
 const questions = [
-    
+    {
+        name: 'title',
+        type: 'input',
+        message: 'What is the title of your project?',
+     },
+     {
+         name: 'description',
+         type: 'input',
+         message: 'Please include a description for your project.',
+      },
+      {
+         name: 'installation',
+         type: 'input',
+         message: 'What are the steps required to install your project? Provide a description of how to get the development environment running.',
+      },
+      {
+         name: 'usage',
+         type: 'input',
+         message: 'What instructions need to be provided to assist the users with the project usage?',
+      },
+     {
+        name: 'guidelines',
+        type: 'input',
+        message: 'What are the guidelines for contribution?',
+     },
+     {
+        name: 'test',
+        type: 'input',
+        message: 'Provie test instructions.',
+     },
+     {
+        name: 'github',
+        type: 'input',
+        message: 'What is your username for GitHub?',
+     },
+     {
+        name: 'githublink',
+        type: 'input',
+        message: 'Please enter link to your github repository.',
+     },
+     {
+        name: 'linkWebsite',
+        type: 'input',
+        message: 'What is the link to the website?',
+     },
+
 ];
 
 
