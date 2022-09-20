@@ -1,10 +1,10 @@
 
-# **readMe-Generator**
+# **readme-generator**
     
-![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## Description
-This app allows for a user to efficiently generate a README.md file for their new projects. 
+description of project 
 
 ## Table of Contents
 - [Description](#Description)
@@ -16,27 +16,27 @@ This app allows for a user to efficiently generate a README.md file for their ne
 - [Questions](#Questions)
 
 ## Installation
-npm install, inquirer, filesystems.
+installation steps
     
 ## Usage
-Input "node index.js" into the terminal, then complete a series of prompts and upon completion a readme file will be generated.
+usage 
 
 ## License
-Apache:  https://opensource.org/licenses/Apache-2.0 
+MIT:  https://opensource.org/licenses/MIT 
     
 ## Contributing
-Please contact me for contribution request via email.
+guidelines
 
 ## Tests
-Testing is able to be completed.
+testing
 
 ## Questions
-* If you have any addition questions, you can contact me here: myles.fonua@gmail.com
+* If you have any addition questions, you can contact me here: email
 
 ## Links
-* Link to Website: N/A
+* Link to Website: link to website
 * Link to GitHub Repository: undefined
-* Link to GitHub: https://github.com/mffonua
+* Link to GitHub: https://github.com/username
 
 ## Mockup
-![screenshot of project](./screenshot.jpg)
+![screenshot of project](screenshot)

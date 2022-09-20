@@ -24,3 +24,5 @@ Run `npm install` in order to install the npm package dependencies as specified 
 This application will start by running `node index.js` from the command line. Follow the prompts to generate the README file. 
 
 After answering all the prompts, your README file will be named 'MockupREADME.md' and will be ready for you at the root of the repository. 
+
+## Usage
