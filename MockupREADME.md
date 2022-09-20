@@ -19,24 +19,24 @@ This app allows for a user to efficiently generate a README.md file for their ne
 npm install, inquirer, filesystems.
     
 ## Usage
-Input "node index.js" in the terminal, after complete the series of prompts to the best of your ability, upon completion a readme file will be generated
+Input "node index.js" into the terminal, then complete a series of prompts and upon completion a readme file will be generated.
 
 ## License
 Apache:  https://opensource.org/licenses/Apache-2.0 
     
 ## Contributing
-Please contact me via email.
+Please contact me for contribution request via email.
 
 ## Tests
-clear
+Testing is able to be completed.
 
 ## Questions
-* If you have any addition questions, you can contact me here: cadsoj
+* If you have any addition questions, you can contact me here: myles.fonua@gmail.com
 
 ## Links
-* Link to Website: clear
+* Link to Website: N/A
 * Link to GitHub Repository: undefined
-* Link to GitHub: https://github.com/clear
+* Link to GitHub: https://github.com/mffonua
 
 ## Mockup
-![screenshot of project](claer)
+![screenshot of project](./screenshot.jpg)
