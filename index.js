@@ -67,22 +67,25 @@ const questions = [
     }
 ];
 
-// Function to promt questions
+// Function to prompt the questions
 function inquirerPrompts() {
-    inquirer.prompt(questions)
-    .then((answers) => {
-        console.log(answers)
-        writeToFile(answers);
-        })
+   inquirer.prompt(questions)
+   .then((answers) => {
+       console.log(answers)
+       writeToFile(answers);
+       })
 }
-// Function to write README file
+
+// Function to write the README.md file
 function writeToFile(data) {
-    fs.writeFile('MockupREADME.md', generateMarkdown(data), (err) =>
-    err ? console.log(err) : console.log('Success'));
+   fs.writeFile('MockupREADME.md', generateMarkdown(data), (err) =>
+   err ? console.log(err) : console.log('Success!'));
 }
+
 // Function to initialize app
 function init() {
-    inquirerPrompts();
+   inquirerPrompts();
 }
+
 // Function call to initialize app
 init();
