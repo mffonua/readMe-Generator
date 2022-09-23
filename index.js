@@ -2,7 +2,7 @@ const inquirer = require('inquirer')
 const fs = require('fs')
 const generateMarkdown = require('./utils/generateMarkdown');
 
-// TODO: Create an array of questions for user input
+// Creates the array of questions for the user to input.
 const questions = [
     {
         name: 'title',
@@ -67,7 +67,7 @@ const questions = [
     }
 ];
 
-// Function to prompt the questions
+// Function that prompts the questions
 function inquirerPrompts() {
    inquirer.prompt(questions)
    .then((answers) => {
@@ -76,16 +76,16 @@ function inquirerPrompts() {
        })
 }
 
-// Function to write the README.md file
+// Function that writes the README.md file
 function writeToFile(data) {
    fs.writeFile('MockupREADME.md', generateMarkdown(data), (err) =>
-   err ? console.log(err) : console.log('Success!'));
+   err ? console.log(err) : console.log('Success!')); // makes sure this is successfull or not
 }
 
-// Function to initialize app
+// Function that initializes app
 function init() {
    inquirerPrompts();
 }
 
-// Function call to initialize app
+// Function that calls to initialized app
 init();

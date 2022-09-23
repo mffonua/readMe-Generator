@@ -1,10 +1,10 @@
 
-# **readme-generator**
+# **readMe-Generator**
     
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## Description
-description of project 
+Description Example 
 
 ## Table of Contents
 - [Description](#Description)
@@ -16,22 +16,22 @@ description of project
 - [Questions](#Questions)
 
 ## Installation
-installation steps
+Required Steps to Install
     
 ## Usage
-usage 
+Instructions to assist
 
 ## License
 MIT:  https://opensource.org/licenses/MIT 
     
 ## Contributing
-guidelines
+Contribution Guidelines
 
 ## Tests
-testing
+Testing
 
 ## Questions
-* If you have any addition questions, you can contact me here: email
+* If you have any addition questions, you can contact me here: johndoe@gmail.com
 
 ## Links
 * Link to Website: link to website
@@ -39,4 +39,4 @@ testing
 * Link to GitHub: https://github.com/username
 
 ## Mockup
-![screenshot of project](screenshot)
+![screenshot of project](pathway to app)
